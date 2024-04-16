@@ -1,0 +1,13 @@
+Listen 80
+<VirtualHost *:80>
+
+        ServerAdmin webmaster@localhost
+        DocumentRoot /var/www/html
+
+
+        ErrorLog ${APACHE_LOG_DIR}/error8081.log
+        CustomLog ${APACHE_LOG_DIR}/access8081.log combined
+
+
+</VirtualHost>
+
